@@ -344,3 +344,17 @@ body {
   font-weight: 400;
   font-style: italic;
 }
+
+/* Quiet aside, not a label: it says where a term came from, which matters
+   less than what the term means. */
+.note-personal {
+  display: inline;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  opacity: 0.75;
+  white-space: nowrap;
+}
+
+.note-personal::before {
+  content: "— ";
+}

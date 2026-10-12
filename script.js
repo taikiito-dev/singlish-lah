@@ -99,7 +99,9 @@ function render() {
 }
 
 function renderCard(t) {
-  const personalBadge = t.personal ? `<span class="badge">📍 personal</span>` : "";
+  const personalBadge = t.personal
+    ? `<span class="note-personal">作者が実際に出会った表現</span>`
+    : "";
   return `
     <article class="term-card">
       <div class="term-card-head">
