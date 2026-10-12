@@ -7,6 +7,8 @@ const INTENTS = [
   { label: "謝る・照れる", emoji: "🙇" },
   { label: "頼む・急がせる", emoji: "🙏" },
   { label: "分からないと言う", emoji: "🤔" },
+  // words that name a thing rather than a feeling, so they fit no bucket above
+  { label: "その他", emoji: "🗂️" },
 ];
 
 let ALL_TERMS = [];

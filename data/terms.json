@@ -68,7 +68,9 @@
     "meaning_ja": "「ある／いる／した」をまとめて表す万能動詞的表現。",
     "example_en": "Got or not?",
     "example_ja": "「あるの、ないの？」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": true
   },
   {
@@ -83,6 +85,18 @@
     ],
     "usable": true,
     "personal": true
+  },
+  {
+    "term": "Sorry yah",
+    "reading": "ソーリー・ヤー",
+    "category": "定番表現",
+    "meaning_ja": "「ごめんね」。yah が付くことで、改まった謝罪ではなく、ぶつかった・待たせた程度の軽い詫びになる。素の Sorry よりやわらかく、日常の場面で頻出。",
+    "example_en": "Sorry yah, didn't see you there.",
+    "example_ja": "「ごめんね、気づかなかった」",
+    "intents": [
+      "謝る・照れる"
+    ],
+    "usable": true
   },
   {
     "term": "Aiyah / Aiyoh",
@@ -179,7 +193,9 @@
     "meaning_ja": "マレー語由来で「食べる／食事」を意味する超頻出単語。",
     "example_en": "Makan already?",
     "example_ja": "「もうご飯食べた？」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": true
   },
   {
@@ -201,7 +217,9 @@
     "meaning_ja": "「特に目的もなくのんびり過ごす／たむろする」を意味するマレー語由来の動詞。",
     "example_en": "Just lepak at home this weekend.",
     "example_ja": "「今週末は家でだらだらするだけ」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": true
   },
   {
@@ -211,7 +229,9 @@
     "meaning_ja": "フードコートなどでティッシュを置いて席取りをすること。シンガポールの日常文化そのもの。",
     "example_en": "I chope the table already.",
     "example_ja": "「もう席取っといたよ」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": true
   },
   {
@@ -233,7 +253,9 @@
     "meaning_ja": "ホッケン語で「赤毛」の意。転じて西洋人（白人）全般を指すカジュアルな呼称。",
     "example_en": "He's an ang moh from London.",
     "example_ja": "「彼はロンドン出身の欧米系の人」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": false
   },
   {
@@ -339,7 +361,9 @@
     "meaning_ja": "英語そのままだが、実際に移動中でなくても「今対応中」「もうすぐやる」という意味で使われることが多い。額面通り受け取ると待たされることも。",
     "example_en": "The report is on the way.",
     "example_ja": "「レポート、今準備中（＝もうすぐ送るはず）」",
-    "intents": [],
+    "intents": [
+      "その他"
+    ],
     "usable": false
   },
   {
