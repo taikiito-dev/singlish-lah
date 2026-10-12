@@ -72,6 +72,18 @@
     "usable": true
   },
   {
+    "term": "I don't know leh",
+    "reading": "アイ・ドンノー・レー",
+    "category": "定番表現",
+    "meaning_ja": "「分からないんだよね」。Leh が付くことで、突き放した「知らない」ではなく「自分も分からなくて申し訳ない」という柔らかさが出る。素の I don't know より角が立たず、聞き返されたときの定番の返し。",
+    "example_en": "I don't know leh, better check with him.",
+    "example_ja": "「分からないなあ、彼に確認したほうがいいよ」",
+    "intents": [
+      "分からないと言う"
+    ],
+    "usable": true
+  },
+  {
     "term": "Aiyah / Aiyoh",
     "reading": "アイヤー／アイヨー",
     "category": "感情・リアクション",
