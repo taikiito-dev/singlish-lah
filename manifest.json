@@ -1,7 +1,7 @@
 {
   "name": "Singlish, lah.",
   "short_name": "Singlish",
-  "description": "日本人駐在員のための、実用シングリッシュ用語集",
+  "description": "シンガポールの英語が、英語に聞こえないときに引くシングリッシュ用語集",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",

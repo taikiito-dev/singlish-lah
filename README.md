@@ -1,12 +1,12 @@
 # Singlish, lah.
 
-A small Singlish glossary for Japanese expats living and working in Singapore — plain HTML/CSS/JS, no build step, deployed on GitHub Pages.
+A small Singlish glossary in Japanese, for anyone who runs into Singlish in Singapore — living there, working there, or passing through — plain HTML/CSS/JS, no build step, deployed on GitHub Pages.
 
 日本語版は下に記載しています (Japanese version below).
 
 ## What this is
 
-Terms and phrases collected from everyday life in Singapore — some well-known Singlish staples, some picked up in real conversations and looked up afterward. Content is in Japanese, aimed at Japanese-speaking residents.
+Terms and phrases collected from everyday life in Singapore — some well-known Singlish staples, some picked up in real conversations and looked up afterward. Content is in Japanese.
 
 It can be read in two directions:
 
@@ -38,7 +38,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## これは何か（日本語）
 
-シンガポールで暮らす・働く日本人駐在員向けの、実用シングリッシュ用語集です。定番のシングリッシュ表現に加えて、実際の会話の中で遭遇して意味を調べた表現もまとめています。
+シンガポールの英語が英語に聞こえないときのための、実用シングリッシュ用語集です。住んでいても、出張で来ただけでも、同じところで引っかかります。定番のシングリッシュ表現に加えて、実際の会話の中で遭遇して意味を調べた表現もまとめています。
 
 引き方は2方向あります。
 
