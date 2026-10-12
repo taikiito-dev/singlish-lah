@@ -96,7 +96,8 @@
     "intents": [
       "謝る・照れる"
     ],
-    "usable": true
+    "usable": true,
+    "personal": true
   },
   {
     "term": "Aiyah / Aiyoh",
