@@ -81,7 +81,8 @@
     "intents": [
       "分からないと言う"
     ],
-    "usable": true
+    "usable": true,
+    "personal": true
   },
   {
     "term": "Aiyah / Aiyoh",
