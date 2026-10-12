@@ -1,0 +1,7 @@
+# Corrections do not fit a form — someone who knows a word is wrong should be
+# able to just say so, in whatever shape the explanation takes.
+blank_issues_enabled: true
+contact_links:
+  - name: "The glossary itself / 用語集を見る"
+    url: https://singlish.taikiito.com
+    about: "送る前に、その表現が既に載っていないか検索してみてください。"

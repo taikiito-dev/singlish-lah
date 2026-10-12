@@ -1,0 +1,52 @@
+name: "A term that isn't here yet / ここに無い表現"
+description: "You heard something in Singapore and could not find it in the glossary. 聞いたけれど一覧に無かった表現を教えてください。"
+title: "[term] "
+labels: ["new term"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        スペルが分からなくても構いません。耳で聞こえたとおりで大丈夫です。
+        Spelling guesses are fine — write it the way it sounded.
+
+  - type: input
+    id: term
+    attributes:
+      label: "The term / 表現"
+      description: "聞こえたとおりに。Write it as you heard it."
+      placeholder: "例: wah piang / catch no ball"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Where you heard it / どんな場面で聞いたか"
+      description: >
+        誰が、どんな状況で言っていたか。同じ語でも場面で意味が変わるので、
+        ここが一番の手がかりになります。
+        The same word shifts meaning with the situation, so this is the most
+        useful part of the report.
+      placeholder: "例: ホーカーで店のおじさんが、注文を聞き返すときに言っていた"
+    validations:
+      required: true
+
+  - type: textarea
+    id: guess
+    attributes:
+      label: "What you took it to mean / どういう意味だと思ったか"
+      description: >
+        分からなかった場合は「分からなかった」で構いません。外した推測も、
+        どこが紛らわしいかの手がかりになります。
+        "No idea" is a fine answer. A wrong guess still shows where the word
+        is confusing.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: "Before you send / 送る前に"
+      options:
+        - label: "一覧を検索して、無いことを確かめた / I searched https://singlish.taikiito.com and did not find it"
+          required: false
