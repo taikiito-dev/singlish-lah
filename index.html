@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Singlish, lah. — 日本人駐在員のためのシングリッシュ用語集</title>
-<meta name="description" content="シンガポールで暮らす・働く日本人駐在員向けの、実用シングリッシュ用語集。日常会話やビジネスの現場で聞いた表現をやさしい日本語で解説。">
+<meta name="description" content="シンガポールで暮らす・働く日本人駐在員向けの、実用シングリッシュ用語集。聞いた表現を日本語で引くのと、言いたい気持ちからシングリッシュを引くのの両方ができます。">
+<meta name="theme-color" content="#d1495b">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,24 +18,55 @@
     </div>
   </header>
 
+  <nav class="tabs">
+    <div class="wrap tabs-inner">
+      <button class="tab" data-mode="sg2ja" aria-pressed="true">
+        <span class="tab-main">聞いた表現を引く</span>
+        <span class="tab-sub">Singlish → 日本語</span>
+      </button>
+      <button class="tab" data-mode="ja2sg" aria-pressed="false">
+        <span class="tab-main">言いたい気持ちから引く</span>
+        <span class="tab-sub">日本語 → Singlish</span>
+      </button>
+    </div>
+  </nav>
+
   <main class="wrap">
-    <section class="intro">
-      <p>
+
+    <!-- ===== Singlish → 日本語 ===== -->
+    <section id="pane-sg2ja" class="pane">
+      <p class="intro">
         シンガポールで暮らしていると、英語のはずなのに聞き取れない・意味がわからない表現によく出会います。
         これは、その場その場で調べて理解してきた表現を少しずつ溜めている個人用語集です。
         <br>
         <span class="badge">📍 personal</span> は、実際の会話の中で遭遇して意味を調べた表現です。
       </p>
+
+      <div class="controls">
+        <input type="search" id="search" placeholder="🔍 用語やカテゴリで検索 (例: lah, 食, 仕事)" autocomplete="off">
+        <div id="category-filters" class="filters"></div>
+      </div>
+
+      <div id="results-info" class="results-info"></div>
+      <div id="term-list" class="term-list"></div>
     </section>
 
-    <section class="controls">
-      <input type="search" id="search" placeholder="🔍 用語やカテゴリで検索 (例: lah, 食, 仕事)" autocomplete="off">
-      <div id="category-filters" class="filters"></div>
+    <!-- ===== 日本語 → Singlish ===== -->
+    <section id="pane-ja2sg" class="pane" hidden>
+      <p class="intro">
+        言いたいことはあるのに単語が出てこないとき用。まず「どんな気持ちか」を選んでください。
+        <br>
+        <span class="badge ok">✅ 自分でも言える</span> と
+        <span class="badge ear">👂 聞き取れればいい</span> を分けています。後者は、相手を評する語や、
+        日本人が使うと浮いたり失礼になりうる語です。
+      </p>
+
+      <div id="intent-filters" class="intent-grid"></div>
+
+      <div id="intent-info" class="results-info"></div>
+      <div id="phrase-list" class="term-list"></div>
     </section>
 
-    <section id="results-info" class="results-info"></section>
-
-    <section id="term-list" class="term-list"></section>
   </main>
 
   <footer class="site-footer">

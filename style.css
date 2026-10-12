@@ -200,3 +200,147 @@ body {
 .site-footer a {
   color: var(--accent);
 }
+
+/* ===== 方向の切り替えタブ ===== */
+
+.tabs {
+  border-bottom: 1px solid var(--border);
+  background: var(--card);
+}
+
+.tabs-inner {
+  display: flex;
+  gap: 8px;
+}
+
+.tab {
+  flex: 1;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 12px 8px 10px;
+  border-bottom: 2px solid transparent;
+  color: var(--ink-soft);
+  font-family: inherit;
+  text-align: left;
+  display: block;
+}
+
+.tab-main {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.tab-sub {
+  display: block;
+  font-size: 0.72rem;
+  margin-top: 1px;
+  opacity: 0.8;
+}
+
+.tab:hover { color: var(--ink); }
+
+.tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ===== 気持ちから引く ===== */
+
+.badge.ok {
+  background: #e3f1e8;
+  color: #2f6b47;
+}
+
+.badge.ear {
+  background: #ece9f5;
+  color: #574a86;
+}
+
+.intent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 8px 0 16px;
+}
+
+.intent-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 14px;
+  font-size: 0.92rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.intent-btn:hover { border-color: var(--accent); }
+
+.intent-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.intent-emoji { font-size: 1.15rem; }
+.intent-label { flex: 1; font-weight: 600; }
+
+.intent-count {
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+}
+
+.intent-btn.active .intent-count { color: rgba(255, 255, 255, 0.85); }
+
+.group-head {
+  margin: 14px 0 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.phrase-say {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.phrase-gloss {
+  margin: 4px 0 14px;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.phrase-foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+
+.phrase-term {
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.phrase-meaning {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+
+.ear-card .phrase-say {
+  font-weight: 400;
+  font-style: italic;
+}

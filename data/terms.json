@@ -6,7 +6,11 @@
     "meaning_ja": "文末につける間投詞。特に意味はないが、断定や念押し、語調を和らげる働きがある。つけないとむしろ素っ気なく聞こえることも。",
     "example_en": "Can lah, no problem.",
     "example_ja": "「できるよー」くらいのニュアンス。",
-    "personal": true
+    "personal": true,
+    "intents": [
+      "強調・褒める"
+    ],
+    "usable": true
   },
   {
     "term": "Lor",
@@ -14,7 +18,11 @@
     "category": "定番表現",
     "meaning_ja": "「まあそういうことだね」という諦め・納得のニュアンスを添える文末詞。Lahより少し投げやり。",
     "example_en": "Like that lor, nothing we can do.",
-    "example_ja": "「まあそうなるよね」という感じ。"
+    "example_ja": "「まあそうなるよね」という感じ。",
+    "intents": [
+      "あきれる・諦める"
+    ],
+    "usable": true
   },
   {
     "term": "Leh",
@@ -22,7 +30,11 @@
     "category": "定番表現",
     "meaning_ja": "軽い主張・訴えかけを添える文末詞。「〜なんだけどな」に近い。",
     "example_en": "I never say that leh.",
-    "example_ja": "「そんなこと言ってないんだけどな」。"
+    "example_ja": "「そんなこと言ってないんだけどな」。",
+    "intents": [
+      "強調・褒める"
+    ],
+    "usable": true
   },
   {
     "term": "Meh",
@@ -30,7 +42,11 @@
     "category": "定番表現",
     "meaning_ja": "疑い・驚きを込めた疑問の文末詞。「本当に？」というニュアンス。",
     "example_en": "Really meh?",
-    "example_ja": "「え、本当に？」"
+    "example_ja": "「え、本当に？」",
+    "intents": [
+      "驚く"
+    ],
+    "usable": true
   },
   {
     "term": "Can / Cannot",
@@ -38,7 +54,12 @@
     "category": "定番表現",
     "meaning_ja": "「できる／できない」「いい／だめ」をそのままYes/Noとして使う超頻出表現。",
     "example_en": "Can can, no issue.",
-    "example_ja": "「大丈夫、問題ない」"
+    "example_ja": "「大丈夫、問題ない」",
+    "intents": [
+      "断る・無理",
+      "頼む・急がせる"
+    ],
+    "usable": true
   },
   {
     "term": "Got",
@@ -46,7 +67,9 @@
     "category": "定番表現",
     "meaning_ja": "「ある／いる／した」をまとめて表す万能動詞的表現。",
     "example_en": "Got or not?",
-    "example_ja": "「あるの、ないの？」"
+    "example_ja": "「あるの、ないの？」",
+    "intents": [],
+    "usable": true
   },
   {
     "term": "Aiyah / Aiyoh",
@@ -54,7 +77,12 @@
     "category": "感情・リアクション",
     "meaning_ja": "がっかり・呆れ・軽い驚きを表す感嘆詞。日本語の「あちゃー」に近い。",
     "example_en": "Aiyah, forgot again.",
-    "example_ja": "「あちゃー、また忘れた」"
+    "example_ja": "「あちゃー、また忘れた」",
+    "intents": [
+      "驚く",
+      "あきれる・諦める"
+    ],
+    "usable": true
   },
   {
     "term": "Alamak",
@@ -62,7 +90,12 @@
     "category": "感情・リアクション",
     "meaning_ja": "驚き・まずい状況への反応。「うわっ」「やばっ」に近い。",
     "example_en": "Alamak, I left my phone at home.",
-    "example_ja": "「うわっ、携帯家に忘れてきた」"
+    "example_ja": "「うわっ、携帯家に忘れてきた」",
+    "intents": [
+      "驚く",
+      "困った・まずい"
+    ],
+    "usable": true
   },
   {
     "term": "Wah Lau / Walao",
@@ -70,7 +103,12 @@
     "category": "感情・リアクション",
     "meaning_ja": "強めの驚き・呆れの感嘆詞。カジュアルな場面でよく使われる。",
     "example_en": "Wah lau, so expensive one.",
-    "example_ja": "「うわ、めっちゃ高いじゃん」"
+    "example_ja": "「うわ、めっちゃ高いじゃん」",
+    "intents": [
+      "驚く",
+      "あきれる・諦める"
+    ],
+    "usable": true
   },
   {
     "term": "Siao",
@@ -78,7 +116,11 @@
     "category": "感情・リアクション",
     "meaning_ja": "「頭おかしい」「クレイジー」を意味する形容詞・感嘆詞。良くも悪くも驚いた時に使う。",
     "example_en": "You siao ah?",
-    "example_ja": "「頭おかしいんじゃない？」（親しい間柄の軽口として）"
+    "example_ja": "「頭おかしいんじゃない？」（親しい間柄の軽口として）",
+    "intents": [
+      "驚く"
+    ],
+    "usable": false
   },
   {
     "term": "Jialat",
@@ -86,7 +128,11 @@
     "category": "感情・リアクション",
     "meaning_ja": "「まずい」「大変なことになった」を意味するホッケン語由来の表現。",
     "example_en": "Jialat, we're going to be late.",
-    "example_ja": "「やばい、遅刻する」"
+    "example_ja": "「やばい、遅刻する」",
+    "intents": [
+      "困った・まずい"
+    ],
+    "usable": true
   },
   {
     "term": "Buay Tahan",
@@ -94,7 +140,12 @@
     "category": "感情・リアクション",
     "meaning_ja": "「もう耐えられない」「無理」を意味する表現。",
     "example_en": "This heat, buay tahan.",
-    "example_ja": "「この暑さ、もう無理」"
+    "example_ja": "「この暑さ、もう無理」",
+    "intents": [
+      "断る・無理",
+      "困った・まずい"
+    ],
+    "usable": true
   },
   {
     "term": "Shiok",
@@ -102,7 +153,11 @@
     "category": "食・生活",
     "meaning_ja": "「最高に美味しい／気持ちいい」を表す最上級の褒め言葉。食べ物にも体験にも使う。",
     "example_en": "This chilli crab, damn shiok.",
-    "example_ja": "「このチリクラブ、めちゃくちゃ美味い」"
+    "example_ja": "「このチリクラブ、めちゃくちゃ美味い」",
+    "intents": [
+      "強調・褒める"
+    ],
+    "usable": true
   },
   {
     "term": "Makan",
@@ -110,7 +165,9 @@
     "category": "食・生活",
     "meaning_ja": "マレー語由来で「食べる／食事」を意味する超頻出単語。",
     "example_en": "Makan already?",
-    "example_ja": "「もうご飯食べた？」"
+    "example_ja": "「もうご飯食べた？」",
+    "intents": [],
+    "usable": true
   },
   {
     "term": "Tapau",
@@ -118,7 +175,11 @@
     "category": "食・生活",
     "meaning_ja": "「持ち帰り（テイクアウト）にする」を意味する動詞。中国語の「打包」由来。",
     "example_en": "Can tapau for me?",
-    "example_ja": "「持ち帰りにしてもらえる？」"
+    "example_ja": "「持ち帰りにしてもらえる？」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
   },
   {
     "term": "Lepak",
@@ -126,7 +187,9 @@
     "category": "食・生活",
     "meaning_ja": "「特に目的もなくのんびり過ごす／たむろする」を意味するマレー語由来の動詞。",
     "example_en": "Just lepak at home this weekend.",
-    "example_ja": "「今週末は家でだらだらするだけ」"
+    "example_ja": "「今週末は家でだらだらするだけ」",
+    "intents": [],
+    "usable": true
   },
   {
     "term": "Chope",
@@ -134,7 +197,9 @@
     "category": "食・生活",
     "meaning_ja": "フードコートなどでティッシュを置いて席取りをすること。シンガポールの日常文化そのもの。",
     "example_en": "I chope the table already.",
-    "example_ja": "「もう席取っといたよ」"
+    "example_ja": "「もう席取っといたよ」",
+    "intents": [],
+    "usable": true
   },
   {
     "term": "Uncle / Auntie",
@@ -142,7 +207,11 @@
     "category": "人間関係・呼び方",
     "meaning_ja": "血縁関係がなくても、年上の人（店員や見知らぬ人も含む）に親しみを込めて呼びかける言葉。",
     "example_en": "Uncle, one kopi-o please.",
-    "example_ja": "「おじさん、コピオー一つください」"
+    "example_ja": "「おじさん、コピオー一つください」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
   },
   {
     "term": "Ang Moh",
@@ -150,7 +219,9 @@
     "category": "人間関係・呼び方",
     "meaning_ja": "ホッケン語で「赤毛」の意。転じて西洋人（白人）全般を指すカジュアルな呼称。",
     "example_en": "He's an ang moh from London.",
-    "example_ja": "「彼はロンドン出身の欧米系の人」"
+    "example_ja": "「彼はロンドン出身の欧米系の人」",
+    "intents": [],
+    "usable": false
   },
   {
     "term": "Kaypoh",
@@ -158,7 +229,11 @@
     "category": "人間関係・呼び方",
     "meaning_ja": "「おせっかい」「詮索好き」を意味する形容詞。",
     "example_en": "Don't be so kaypoh lah.",
-    "example_ja": "「そんなにおせっかい焼かないでよ」"
+    "example_ja": "「そんなにおせっかい焼かないでよ」",
+    "intents": [
+      "あきれる・諦める"
+    ],
+    "usable": false
   },
   {
     "term": "Atas",
@@ -166,7 +241,11 @@
     "category": "人間関係・呼び方",
     "meaning_ja": "マレー語で「上」の意。転じて「高級」「気取っている」を意味する形容詞。皮肉っぽく使われることも多い。",
     "example_en": "Wah, this restaurant very atas.",
-    "example_ja": "「うわ、このレストランめっちゃ高級っぽい」"
+    "example_ja": "「うわ、このレストランめっちゃ高級っぽい」",
+    "intents": [
+      "強調・褒める"
+    ],
+    "usable": true
   },
   {
     "term": "Paiseh",
@@ -174,7 +253,11 @@
     "category": "人間関係・呼び方",
     "meaning_ja": "ホッケン語由来で「恥ずかしい」「気まずい」「すみません」を意味する。謝罪や照れ隠しで頻出。",
     "example_en": "Paiseh, I'm a bit late.",
-    "example_ja": "「すみません、ちょっと遅れました」"
+    "example_ja": "「すみません、ちょっと遅れました」",
+    "intents": [
+      "謝る・照れる"
+    ],
+    "usable": true
   },
   {
     "term": "Blur / Blur Sotong",
@@ -182,7 +265,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「状況が分かっていない、ぼーっとしている」人を指す。Sotongは「イカ」の意で、墨を吐いて視界を悪くするイカに例えた表現。",
     "example_en": "Don't act blur, you know what happened.",
-    "example_ja": "「とぼけないでよ、何が起きたか分かってるでしょ」"
+    "example_ja": "「とぼけないでよ、何が起きたか分かってるでしょ」",
+    "intents": [
+      "分からないと言う"
+    ],
+    "usable": false
   },
   {
     "term": "Kiasu",
@@ -190,7 +277,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "ホッケン語で「負けたくない」「損したくない」という強い競争心・心配性を表す、シンガポール文化を象徴する言葉。",
     "example_en": "So kiasu, queued 2 hours for this.",
-    "example_ja": "「負けず嫌いすぎて、これのために2時間並んだ」"
+    "example_ja": "「負けず嫌いすぎて、これのために2時間並んだ」",
+    "intents": [
+      "あきれる・諦める"
+    ],
+    "usable": false
   },
   {
     "term": "Bo Liao",
@@ -198,7 +289,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「暇でやることがない」「くだらない」を意味するホッケン語由来の表現。",
     "example_en": "So bo liao today, nothing to do.",
-    "example_ja": "「今日は暇すぎてやることがない」"
+    "example_ja": "「今日は暇すぎてやることがない」",
+    "intents": [
+      "あきれる・諦める"
+    ],
+    "usable": false
   },
   {
     "term": "Catch No Ball",
@@ -206,7 +301,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「全く理解できていない」を意味する直訳調の表現。会議やチャットでよく飛び交う。",
     "example_en": "Sorry, I catch no ball what you mean.",
-    "example_ja": "「すみません、おっしゃっている意味が全然分かりません」"
+    "example_ja": "「すみません、おっしゃっている意味が全然分かりません」",
+    "intents": [
+      "分からないと言う"
+    ],
+    "usable": true
   },
   {
     "term": "Steady",
@@ -214,7 +313,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「大丈夫」「オッケー」「さすが」といった肯定・承認の相槌として使われる。",
     "example_en": "Steady, I'll handle it.",
-    "example_ja": "「了解、こっちで対応するよ」"
+    "example_ja": "「了解、こっちで対応するよ」",
+    "intents": [
+      "強調・褒める"
+    ],
+    "usable": true
   },
   {
     "term": "On the way",
@@ -222,7 +325,9 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "英語そのままだが、実際に移動中でなくても「今対応中」「もうすぐやる」という意味で使われることが多い。額面通り受け取ると待たされることも。",
     "example_en": "The report is on the way.",
-    "example_ja": "「レポート、今準備中（＝もうすぐ送るはず）」"
+    "example_ja": "「レポート、今準備中（＝もうすぐ送るはず）」",
+    "intents": [],
+    "usable": false
   },
   {
     "term": "Gone Case",
@@ -230,7 +335,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「もう手遅れ」「詰んだ」状況を表す表現。",
     "example_en": "If the deal falls through, we're gone case.",
-    "example_ja": "「この取引がダメになったら、もう詰みだね」"
+    "example_ja": "「この取引がダメになったら、もう詰みだね」",
+    "intents": [
+      "困った・まずい"
+    ],
+    "usable": true
   },
   {
     "term": "Market gone banana",
@@ -239,7 +348,12 @@
     "meaning_ja": "相場が急変動・大荒れになっている状態を指す業界寄りの言い回し。シンガポールでの日々のやり取りの中で実際に遭遇して意味が分からず調べた表現。",
     "example_en": "Crazy day today, market gone banana.",
     "example_ja": "「今日はやばい日だった、相場が大荒れ」",
-    "personal": true
+    "personal": true,
+    "intents": [
+      "驚く",
+      "困った・まずい"
+    ],
+    "usable": true
   },
   {
     "term": "Chop Chop",
@@ -247,7 +361,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「早く早く」「急いで」を意味する擬態語的表現。",
     "example_en": "Chop chop, meeting starting soon.",
-    "example_ja": "「早く早く、もうすぐ会議始まるよ」"
+    "example_ja": "「早く早く、もうすぐ会議始まるよ」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
   },
   {
     "term": "Sabo",
@@ -255,7 +373,11 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "英語の“sabotage”を短縮した表現。「（意図的・非意図的に）ハメる、迷惑をかける」を意味する動詞。",
     "example_en": "You sabo me leh, why never tell me earlier.",
-    "example_ja": "「ハメたでしょ、なんでもっと早く言ってくれなかったの」"
+    "example_ja": "「ハメたでしょ、なんでもっと早く言ってくれなかったの」",
+    "intents": [
+      "困った・まずい"
+    ],
+    "usable": false
   },
   {
     "term": "Cheem",
@@ -263,6 +385,10 @@
     "category": "仕事・現場で聞いた表現",
     "meaning_ja": "「難解」「専門的すぎて分からない」を意味する形容詞。契約書や専門用語に対してよく使われる。",
     "example_en": "This contract clause quite cheem.",
-    "example_ja": "「この契約条項、けっこう難しいね」"
+    "example_ja": "「この契約条項、けっこう難しいね」",
+    "intents": [
+      "分からないと言う"
+    ],
+    "usable": true
   }
 ]
