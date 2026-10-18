@@ -428,5 +428,149 @@
       "分からないと言う"
     ],
     "usable": true
+  },
+  {
+    "term": "Kopi",
+    "reading": "コピ",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "マレー語で「コーヒー」。何も付けずに頼むと、練乳入りの甘いコーヒーが出てくる。これが既定なので、甘くないものが欲しいなら必ず後ろに言葉を足す。",
+    "example_en": "Kopi, one.",
+    "example_ja": "「コピ一つ」。練乳入りの甘いやつが来る。",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Kopi O",
+    "reading": "コピオー",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "砂糖入りのブラックコーヒー。Oは福建語の「烏」（黒）。ミルクは入らないが砂糖は入る。",
+    "example_en": "Kopi O, please.",
+    "example_ja": "「ブラックで、砂糖は入れて」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Kopi C",
+    "reading": "コピシー",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "無糖練乳（エバミルク）と砂糖入りのコーヒー。練乳のKopiより甘さが軽く、ミルク感は残る。Cは海南語の「鮮」（フレッシュ）という説と、缶の銘柄Carnation説がある。",
+    "example_en": "Kopi C siew dai.",
+    "example_ja": "「エバミルクで、甘さ控えめ」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Kosong",
+    "reading": "コソン",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「砂糖なし」。マレー語で「空」。Kopi O Kosong なら砂糖もミルクも無し、つまり完全なブラック。",
+    "example_en": "Kopi O kosong.",
+    "example_ja": "「ブラック、砂糖なし」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Siew Dai",
+    "reading": "シウダイ",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「甘さ控えめ」。広東語の「少底」（底＝下に敷く練乳や砂糖を少なく）から。現地の既定はかなり甘いので、日本の感覚ではこれが基準になりやすい。",
+    "example_en": "Kopi siew dai.",
+    "example_ja": "「コピ、甘さ控えめで」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Gah Dai",
+    "reading": "ガーダイ",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「甘さ増し」。広東語の「加底」。Siew Dai の反対。",
+    "example_en": "Kopi C gah dai.",
+    "example_ja": "「エバミルクで、甘め」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Gao",
+    "reading": "ガオ",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「濃いめ」。福建語の「厚」。豆を多めに出した濃い液で淹れる。",
+    "example_en": "Kopi gao.",
+    "example_ja": "「コピ、濃いめで」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Poh",
+    "reading": "ポー",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「薄め」。福建語の「薄」。Gao の反対。",
+    "example_en": "Kopi O poh.",
+    "example_ja": "「ブラック、薄めで」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Di Lo",
+    "reading": "ディロ",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「湯で割らない原液」。福建語の「直落」（まっすぐ落とす）。Gao よりさらに濃い、一番強い指定。",
+    "example_en": "Kopi di lo.",
+    "example_ja": "「薄めずに、原液で」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Peng",
+    "reading": "ペン",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "「氷入り（アイス）」。福建語の「冰」。最後に付ける。",
+    "example_en": "Kopi C siew dai peng.",
+    "example_ja": "「エバミルク、甘さ控えめ、アイスで」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Cham",
+    "reading": "チャム",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "コーヒーと紅茶を混ぜたもの。香港でいう鴛鴦（ユンヨン）。福建語の「參」（混ぜる）から。",
+    "example_en": "Cham siew dai.",
+    "example_ja": "「コーヒー紅茶ミックス、甘さ控えめ」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
+  },
+  {
+    "term": "Teh",
+    "reading": "テー",
+    "category": "コーヒーの頼み方",
+    "meaning_ja": "紅茶。コピに付ける言葉（O／C／Kosong／Siew Dai／Peng）はそのまま全部使える。Teh O Peng なら「無糖ミルクなしのアイスティー」。",
+    "example_en": "Teh C peng.",
+    "example_ja": "「エバミルクのアイスティー」",
+    "intents": [
+      "頼む・急がせる"
+    ],
+    "usable": true
   }
 ]
