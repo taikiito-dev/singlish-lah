@@ -248,16 +248,17 @@
     "usable": true
   },
   {
-    "term": "Ang Moh",
+    "term": "Ang Moh / Angmo",
     "reading": "アンモー",
     "category": "人間関係・呼び方",
-    "meaning_ja": "ホッケン語で「赤毛」の意。転じて西洋人（白人）全般を指すカジュアルな呼称。",
-    "example_en": "He's an ang moh from London.",
-    "example_ja": "「彼はロンドン出身の欧米系の人」",
+    "meaning_ja": "ホッケン語で「赤毛」の意。転じて西洋人（白人）全般を指すカジュアルな呼称。WhatsAppでは Angmo と一語で綴られることが多く、「Angmo?」だけで「その人、欧米系の人？」という質問になる。侮蔑語ではないが公の場で使う語でもないので、聞いて分かれば十分。",
+    "example_en": "Angmo?",
+    "example_ja": "「（会う相手は）欧米系の人？」待ち合わせ前に、相手の見分けがつくかを確かめる一言。",
     "intents": [
       "その他"
     ],
-    "usable": false
+    "usable": false,
+    "personal": true
   },
   {
     "term": "Kaypoh",
